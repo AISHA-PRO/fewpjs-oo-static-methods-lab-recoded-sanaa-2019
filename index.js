@@ -24,7 +24,7 @@ class Formatter {
       return word.charAt(0).toUpperCase()+ word.slice(1)
       else
       {
-         flag = exceptWord.find(e=>{e==word });
+         flag = exceptWord.find(e=>e==word );
          if(flag){
            return word.toLowerCase();
          }
